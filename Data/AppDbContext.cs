@@ -12,6 +12,5 @@ namespace TicketSystem.Data
         public DbSet<User> users { get; set; }
         public DbSet<Bug> bug { get; set; }
         public DbSet<Feature> features { get; set; }
-
     }
 }
